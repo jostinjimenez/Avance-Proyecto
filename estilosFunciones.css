@@ -1,47 +1,48 @@
 * {
     box-sizing: border-box;
     padding: 7px;
+
 }
-.card {
-    width: 100%;
+.ventana {
+    width: 60%;
     height: 100%px;
     margin: 0 auto;
     background-color: #011522;
     border-radius: 8px;
     z-index: 1;
     color: rgb(39, 136, 221);
-   }
+}
    
-   .tools {
+.herramientas {
     display: flex;
     align-items: center;
     padding: 9px;
-   }
+}
    
-   .circle {
+.circulo {
     padding: 0 4px;
-   }
+}
    
-   .box {
+.box {
     display: inline-block;
     align-items: center;
     width: 14px;
     height: 14px;
     padding: 1px;
     border-radius: 50%;
-   }
+}
    
-   .red {
+.rojo {
     background-color: #ff605c;
-   }
+}
    
-   .yellow {
+.amarillo {
     background-color: #ffbd44;
-   }
+}
    
-   .green {
+.verde {
     background-color: #00ca4e;
-   }
+}
    
 p {
     font-size: 20px;
@@ -53,8 +54,8 @@ li {
     font-size: 20px;
     font-family: 'segoe ui';
     text-align: left;
-
 }
+
 h1 {
     font-size: 30px;
     font-family: 'segoe ui';
@@ -78,5 +79,12 @@ ul {
     border-radius: 8px;
     z-index: 1;
     color: black;
+}
+
+.titulo {
+    font-size: 30px;
+    font-family: 'segoe ui';
+    text-align: left;
+    color: rgb(60, 255, 1);
 }
    

@@ -9,16 +9,16 @@
   <body>
 
     <h1>Funcionalidades del proyecto</h1>
-    <div class="card">
-      <div class="tools">
-        <div class="circle">
-          <span class="red box"></span>
+    <div class="ventana">
+      <div class="herramientas">
+        <div class="circulo">
+          <span class="rojo box"></span>
         </div>
-        <div class="circle">
-          <span class="yellow box"></span>
+        <div class="circulo">
+          <span class="amarillo box"></span>
         </div>
-        <div class="circle">
-          <span class="green box"></span>
+        <div class="circulo">
+          <span class="verde box"></span>
         </div>
       </div>
       <div class="funcionalidades">
@@ -89,7 +89,7 @@
 
     <h1>Historias de Usuario</h1>
     <div class="historias-usuario">
-      <h2 class="titulo">1: Registro de usuarios</h2>
+      <h2 class="titulo-usuario">1: Registro de usuarios</h2>
       <p class="descripcion">Como usuario, quiero poder registrarme en el sistema para acceder a funcionalidades de la aplicacion.</p>
       <ul>
         <li>Como usuario nuevo, debo proporcionar un nombre de usuario, una dirección de correo electrónico institucional y una contraseña.</li>
@@ -99,7 +99,7 @@
     </div>
     
     <div class="historias-usuario">
-      <h2 class="titulo">2: Inicio de sesión</h2>
+      <h2 class="titulo-usuario">2: Inicio de sesión</h2>
       <p class="descripcion">Como usuario registrado, quiero poder iniciar sesión en el sistema para acceder a mi perfil y realizar acciones específicas.</p>
       <ul>
         <li>Como usuario, debo proporcionar mi correo electrónico y mi contraseña para iniciar sesión.</li>
@@ -110,23 +110,29 @@
     </div>
 
     <div class="historias-usuario">
-      <h2 class="titulo">3: Editar perfil</h2>
+      <h2 class="titulo-usuario">3: Editar perfil</h2>
       <p class="descripcion">Como usuario registrado, quiero poder editar mi perfil para cambiar mi información personal.</p>
+      <ul>
+        <li>Como usuario, debo poder cambiar mi nombre de usuario, mi dirección de correo electrónico y mi contraseña.</li>
+        <li>El sistema debe verificar que el nombre de usuario y el correo electrónico no esten en uso.</li>
+        <li>Si la validación es exitosa, se debe actualizar la información del usuario en la base de datos.</li>
+      </ul>
     </div>
 
     <div class="historias-usuario">
-      <h2 class="titulo">4: Navegacion entre Facultad - Carrera - Ciclo - Equipo</h2>
+      <h2 class="titulo-usuario">4: Navegacion entre Facultad - Carrera - Ciclo - Equipo</h2>
       <p class="descripcion">Como usuario, quiero poder navegar entre las diferentes categorias que tiene la universidad para buscar un equipo.</p>
     </div>
 
     <div class="historias-usuario">
-      <h2 class="titulo">5: Ver Informacion del equipo</h2>
+      <h2 class="titulo-usuario">5: Ver Informacion del equipo</h2>
       <p class="descripcion">Como usuario, quiero poder ver la información detallada de un equipo para conocer sus características técnicas y detalles relevantes.</p>  
     </div>
 
     <div class="historias-usuario">
-      <h2 class="titulo">6: Ver Informacion de los jugadores</h2>
+      <h2 class="titulo-usuario">6: Ver Informacion de los jugadores</h2>
       <p class="descripcion">Como usuario, quiero poder ver la informacion de los jugadores del equipo que he seleccionado.</p>
+
     <!-- Agrega más historias de usuario aquí -->
 
   </body>
