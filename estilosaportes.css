@@ -1,6 +1,24 @@
-img{
+.centrar-imagen {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px; /* Ajusta la altura del contenedor según tus necesidades */
+  }
+
+.imagen{
+    width: 200px;
+    height: 100px;
+}  
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    margin: 10px;
+    padding: 0px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    display: flex;
+    justify-content: center;
 }
