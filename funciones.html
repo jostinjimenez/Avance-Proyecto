@@ -77,12 +77,11 @@
     <h1>Historias de Usuario</h1>
     <div class="historias-usuario">
       <h2 class="titulo">1: Registro de usuarios</h2>
-      <p class="descripcion">Como usuario, quiero poder registrarme en el sistema para acceder a funcionalidades personalizadas.</p>
+      <p class="descripcion">Como usuario, quiero poder registrarme en el sistema para acceder a funcionalidades de la aplicacion.</p>
       <ul>
-        <li>Como usuario nuevo, debo proporcionar un nombre de usuario, una dirección de correo electrónico válida y una contraseña.</li>
-        <li>El sistema debe verificar que el nombre de usuario y el correo electrónico no estén en uso.</li>
+        <li>Como usuario nuevo, debo proporcionar un nombre de usuario, una dirección de correo electrónico institucional y una contraseña.</li>
+        <li>El sistema debe verificar que el nombre de usuario y el correo electrónico no esten en uso.</li>
         <li>Si la validación es exitosa, se debe crear una cuenta de usuario en la base de datos.</li>
-        <li>El sistema debe enviar un correo electrónico de confirmación al usuario registrado.</li>
       </ul>
     </div>
     
@@ -90,11 +89,16 @@
       <h2 class="titulo">2: Inicio de sesión</h2>
       <p class="descripcion">Como usuario registrado, quiero poder iniciar sesión en el sistema para acceder a mi perfil y realizar acciones específicas.</p>
       <ul>
-        <li>Como usuario, debo proporcionar mi nombre de usuario y mi contraseña para iniciar sesión.</li>
+        <li>Como usuario, debo proporcionar mi correo electrónico y mi contraseña para iniciar sesión.</li>
         <li>El sistema debe verificar las credenciales ingresadas y permitir el acceso si son correctas.</li>
         <li>Si las credenciales no son válidas, se debe mostrar un mensaje de error.</li>
-        <li>Una vez autenticado, el sistema debe redirigir al usuario a su página de perfil.</li>
+        <li>Una vez autenticado, el sistema debe redirigir al usuario a su página principal.</li>
       </ul>
+    </div>
+
+    <div class="historias-usuario">
+      <h2 class="titulo">3: Editar perfil</h2>
+      <p class="descripcion">Como usuario registrado, quiero poder editar mi perfil para cambiar mi información personal.</p>
     </div>
 
     <!-- Agrega más historias de usuario aquí -->
