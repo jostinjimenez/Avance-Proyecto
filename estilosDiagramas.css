@@ -1,14 +1,16 @@
-.imagenes{
+.imagen1{
  display: flex;   
  justify-content: center;
  margin-bottom: 15px;
+
 }
 
 .imagen{
-    width: 800px;
-    height: 500px;
+    width: 1200px;
+    height: 900px;
     margin: 0 20px ;
     border: 5px solid black;
+    
     
 }
 .T1{
